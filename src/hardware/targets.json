@@ -482,5 +482,15 @@
                 "upload_methods": ["uart", "wifi", "betaflight"]
             }
         }
+    },
+    "experimental": {
+        "tx_2400": {
+            "experiment2": {
+                "product_name": "Experiment 2 2.4GHz TX",
+                "lua_name": "Experiment2",
+                "layout_file": "Exp2.json",
+                "upload_methods": ["uart", "wifi"]
+            }
+        }
     }
 }
